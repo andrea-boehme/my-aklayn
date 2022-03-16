@@ -11,12 +11,6 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    img{
-        height: 100px;
-        width: 100px;
-        margin-left: 50px;
-    }
-
     a{
         color: white;
         text-decoration: none;
@@ -28,4 +22,25 @@ header{
         }
     }
 
+    img{
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+}
+
+.darkLinks{
+    a{
+        color: black;
+
+        &:hover{
+            color: rgba(0,0,0,0.8);
+        }
+    }
+}
+
+.headerDark{
+    background-color: white;
+    box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
 }
